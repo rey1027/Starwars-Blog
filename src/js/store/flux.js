@@ -1,6 +1,8 @@
 const getState = ({ getStore, getActions, setStore }) => {
 	return {
+		//Almacena todo los estados globales 
 		store: {
+			//Global state
 			demo: [
 				{
 					title: "FIRST",
